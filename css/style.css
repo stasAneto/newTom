@@ -15,7 +15,7 @@ body{
     height: 5vw;
     z-index: 100;
     display: flex;
-    background: linear-gradient( to right, #fff 10%, #a2bfd6, #fff 70%);
+    background: linear-gradient( to right, #fff 10%, #a2bfd6 25%, #fff 50%);
     box-shadow: 0 0 0 #fff inset, 0 .2em .4em #737373;
 }
 
@@ -64,9 +64,10 @@ body{
 .Content{
     width: 97%;
     margin: auto;
+    padding-bottom: 4vw;
 }
 
-.RentgenHead{
+.ContentHead{
     background: #548cb3;
     height: 4vw;
     text-align: center;
@@ -77,16 +78,21 @@ body{
     box-shadow: 0 0 0 #fff inset, 0 .1em .2em #000;
 }
 
-.RentgenContent{
+.ContentInfo{
     display: flex;
     width: 100%;
     flex-flow: row nowrap; 
     flex: 1;
+    font-size: 1.3vw;
 }
 
-.RentgenTex{
-    width: 50%;
-    font-size: 1.3vw;
-    padding-left: 20px;
-    padding-right: 20px;
+.HalfContent{
+    width: 48%;
+    padding: 0 1%;
+}
+
+.addInfo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2vw;
 }
