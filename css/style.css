@@ -1,5 +1,9 @@
 body{
     background-color: #f7f8fa;
+    background-image: url("../img/bg-azienda.jpg");
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 /*Заголовок*/
@@ -11,7 +15,7 @@ body{
     height: 5vw;
     z-index: 100;
     display: flex;
-    background: linear-gradient( to right, #fff, #fff, #a2bfd6, #fff, #fff, #fff, #fff);
+    background: linear-gradient( to right, #fff 10%, #a2bfd6, #fff 70%);
     box-shadow: 0 0 0 #fff inset, 0 .2em .4em #737373;
 }
 
@@ -19,6 +23,7 @@ body{
     padding: 5px 4vw;
 }
 
+/*Главное меню*/
 .MainMenu{
     padding-left: 10px;
     flex: 1;
@@ -46,13 +51,18 @@ body{
     text-decoration: none;
 }
 
+.MenuItem a:hover{
+    color: black;    
+}
+
+/*Контент*/
 .Rentgen{
     position: relative;
     top: 8vw;
 }
 
 .Content{
-    width: 90%;
+    width: 97%;
     margin: auto;
 }
 
@@ -72,10 +82,6 @@ body{
     width: 100%;
     flex-flow: row nowrap; 
     flex: 1;
-}
-
-.RengenPhoto{
-    width: 50%;
 }
 
 .RentgenTex{
