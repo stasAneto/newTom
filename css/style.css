@@ -94,5 +94,15 @@ body{
 .addInfo{
     text-align: center;
     font-weight: bold;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
+}
+.workTimeInfo{
+    text-align:  right;
+    font-size: 1.3vw;
+}
+
+.adressInfo{
+    text-align:  right;
+    color: #0000ff;
+    font-size: 1.3vw;
 }
