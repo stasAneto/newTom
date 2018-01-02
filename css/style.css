@@ -1,0 +1,86 @@
+body{
+    background-color: #f7f8fa;
+}
+
+/*Заголовок*/
+.FixHead{
+    position: fixed;
+    left: 1%;
+    top:1%;
+    width: 98%;
+    height: 5vw;
+    z-index: 100;
+    display: flex;
+    background: linear-gradient( to right, #fff, #fff, #a2bfd6, #fff, #fff, #fff, #fff);
+    box-shadow: 0 0 0 #fff inset, 0 .2em .4em #737373;
+}
+
+.ImgLogo{
+    padding: 5px 4vw;
+}
+
+.MainMenu{
+    padding-left: 10px;
+    flex: 1;
+    display: flex;
+}
+
+.MenuItem{
+    width: 14%;
+    height: 3.4vw;
+    margin-right: 10px;
+    margin-top: 0.3vw;
+    font-size: 1.8vw;
+    font-weight: bold;
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #94a1aa;
+    border-radius: 5px;
+    box-shadow: 0 .3em .4em #fff inset, 0 .3em .2em #737373;
+}
+
+.MenuItem a{
+    color: #0000ff;
+    text-decoration: none;
+}
+
+.Rentgen{
+    position: relative;
+    top: 8vw;
+}
+
+.Content{
+    width: 90%;
+    margin: auto;
+}
+
+.RentgenHead{
+    background: #548cb3;
+    height: 4vw;
+    text-align: center;
+    line-height: 4vw;
+    font-size: 2.5vw;
+    margin-bottom: 0.8vw;
+    color: white;
+    box-shadow: 0 0 0 #fff inset, 0 .1em .2em #000;
+}
+
+.RentgenContent{
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap; 
+    flex: 1;
+}
+
+.RengenPhoto{
+    width: 50%;
+}
+
+.RentgenTex{
+    width: 50%;
+    font-size: 1.3vw;
+    padding-left: 20px;
+    padding-right: 20px;
+}
