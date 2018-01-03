@@ -44,14 +44,12 @@ body{
     border: 2px solid #94a1aa;
     border-radius: 5px;
     box-shadow: 0 .3em .4em #fff inset, 0 .3em .2em #737373;
-}
-
-.MenuItem a{
     color: #0000ff;
     text-decoration: none;
 }
 
-.MenuItem a:hover{
+
+.MenuItem:hover{
     color: black;    
 }
 
