@@ -142,9 +142,9 @@ body{
     background-color:rgba(84, 139, 179, 0.45);
 }
 @keyframes fillCircle {
-    0%   {width: 6vw; height: 6vw;}
-    50%  {width: 8vw; height: 8vw;}
-    100% {width: 6vw; height: 6vw;}
+    0%   {width: 80px; height: 80px;}
+    50%  {width: 120px; height: 120px;}
+    100% {width: 80px; height: 80px;}
 }
 
 .thirdCircle{
@@ -162,7 +162,88 @@ body{
 .thirdCircle:hover{
     background-color: rgb(84, 140, 179);
 }
+.thirdCircle a:active{
+    background-color: rgb(84, 140, 179);
+}
 @keyframes rotatePhone {
     50%   {transform: rotate(-20deg);}
     100% {transform: rotate(0deg);}
+}
+
+#vidgetWindow{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 110;
+    background-color: rgba(43, 43, 43, 0.8);
+    visibility: hidden;
+}
+.vidgetMessage{
+    left: 30%;
+    top: 20%;
+    width: 40vw;
+    height: 25vw;
+    position: fixed;
+    z-index: 120;
+    background-color: white;
+}
+
+.closeVidget{
+    width: .8vw;
+    height: .8vw;
+    float: right;
+    padding-top: .2vw;
+    padding-right: 1.8vw;
+}
+.closeVidget a:hover{
+    border-radius: 50%;
+    background-color: rgba(148, 161, 170, 0.5);
+}
+.closeVidget a{
+    width: 2.3vw;
+    height: 2.3vw;
+    display: inline-block;
+    font-size: 1.5vw;
+    color: #737373;
+    text-decoration: unset;
+    text-align: center;
+    transition: background-color .5s;
+}
+.vidgetP1{
+    padding: 1vw;
+    margin: 0;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+}
+.vidgetP2{
+    padding: 0;
+    margin: 0;
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(69, 182, 182);
+}
+.vidgetP3{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    display: inline-block;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+.vidgetPFloat{
+    float: left;
+}
+.vidgetP4{
+    padding: 0;
+    margin: 0;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
 }

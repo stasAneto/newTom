@@ -64,10 +64,34 @@
         <div class="firstCircle">
             <div class="secondCircle">
                 <div class="thirdCircle">
-                    <a href="#"><img src="img/phone.png" alt="phone" ></a>
+                    <a href="#" onclick="showVidgetMessage();"><img src="img/phone.png" alt="phone" ></a>
                 </div>
             </div>
         </div>
+        <div id="vidgetWindow">
+            <div class="vidgetMessage">
+                <div class="closeVidget"><a href="#" onclick="hideVidgetMessage();">✘</a></div>
+                <p class="vidgetP1">Запишись на консультацию<br>стоматолога</p>
+                <p class="vidgetP2">по телефонам</p>
+                <p class="vidgetP3 vidgetPFloat ">067 140 1080</p>
+                <p class="vidgetP3">066 658 9292</p>
+                <p class="vidgetP1">Запись на тамограф</p>
+                <p class="vidgetP2">по телефону</p>
+                <p class="vidgetP4">068 0202026</p>
+            </div>            
+        </div>
+        <script>
+            function showVidgetMessage(){
+                var elem = document.getElementById('vidgetWindow')
+                elem.style.visibility = 'visible';
+            }
+            function hideVidgetMessage(){
+                var elem = document.getElementById('vidgetWindow')
+                elem.style.visibility = 'hidden';
+            }
+        </script>
+        
     </div>
+    
 </body>
 </html>
